@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+}
+a,span{
+    display:inline-block;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 70px;
+}
+
+button:hover{
+    background-color: green !important;
+}
